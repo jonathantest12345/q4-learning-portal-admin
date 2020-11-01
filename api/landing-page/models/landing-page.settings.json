@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "LandingPage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.landing-page"
+    }
+  }
+}

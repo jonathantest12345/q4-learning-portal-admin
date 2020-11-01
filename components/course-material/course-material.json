@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_material_course_materials",
+  "info": {
+    "name": "Course Material",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "VideoCourse1": {
+      "type": "string"
+    },
+    "QuickLinks": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}

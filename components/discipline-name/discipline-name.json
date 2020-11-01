@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_discipline_name_discipline_names",
+  "info": {
+    "name": "Discipline Name",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Path": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "CourseMaterial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-material.course-material"
+    },
+    "TextDocumentation": {
+      "type": "string"
+    }
+  }
+}

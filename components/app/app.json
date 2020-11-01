@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_app_apps",
+  "info": {
+    "name": "App",
+    "icon": "carrot",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "Discipline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-material.course-material"
+    }
+  }
+}

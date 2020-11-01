@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_landing_page_landing_pages",
+  "info": {
+    "name": "LandingPage",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "DisciplineName": {
+      "type": "string"
+    },
+    "App": {
+      "type": "component",
+      "repeatable": true,
+      "component": "app.app"
+    }
+  }
+}

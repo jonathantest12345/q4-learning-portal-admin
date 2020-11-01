@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apps",
+  "info": {
+    "name": "App"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "App": {
+      "type": "component",
+      "repeatable": false,
+      "component": "discipline-name.discipline-name"
+    }
+  }
+}

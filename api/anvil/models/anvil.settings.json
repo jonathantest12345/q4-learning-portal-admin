@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "anvils",
+  "info": {
+    "name": "anvil"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "courseName": {
+      "type": "string"
+    }
+  }
+}
