@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Discipline": {
+      "type": "string"
+    },
+    "courseMaterial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course-material.course-material"
+    },
+    "test": {
+      "type": "dynamiczone",
+      "components": [
+        "app.app",
+        "course-material.course-material",
+        "discipline-name.discipline-name",
+        "landing-page.landing-page"
+      ]
+    }
+  }
+}
